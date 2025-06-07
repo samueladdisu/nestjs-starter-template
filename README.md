@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/create-nest-starter?color=green&style=flat-square)](https://www.npmjs.com/package/create-nest-starter)
 [![GitHub stars](https://img.shields.io/github/stars/samueladdisu/nestjs-starter-template?style=social)](https://github.com/samueladdisu/nestjs-starter-template)
-[![CI](https://github.com/samueladdisu/nestjs-starter-template/actions/workflows/ci.yml/badge.svg)](https://github.com/samueladdisu/nestjs-starter-template/actions)
 
 A clean, modular CLI to scaffold a NestJS backend project with optional features like Email, Logger, Auth, and more.
 
@@ -57,12 +56,13 @@ create-nest-starter my-api
 ```
 
 🛠 Requirements
+
 Node.js ≥ 18
 
 npm or pnpm
 
 📄 License
-MIT © [Samuel Addisu][https://github.com/samueladdisu]
+MIT © [Samuel Addisu](https://github.com/samueladdisu)
 
 ```
 
