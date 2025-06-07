@@ -1,0 +1,21 @@
+{
+  "name": "create-nest-starter",
+  "version": "1.0.0",
+  "description": "CLI to scaffold a NestJS starter with optional modules",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "create-nest-starter": "./bin/index.mjs"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.7"
+  },
+  "keywords": [
+    "nestjs",
+    "starter",
+    "cli"
+  ],
+  "author": "Samuel Addisu <samueladdisu7@gmail.com>",
+  "license": "MIT"
+}
