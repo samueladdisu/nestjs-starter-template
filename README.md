@@ -1,8 +1,8 @@
 # 🚀 create-nest-starter
 
 [![npm version](https://img.shields.io/npm/v/create-nest-starter?color=green&style=flat-square)](https://www.npmjs.com/package/create-nest-starter)
-[![GitHub stars](https://img.shields.io/github/stars/samueladdisu/create-nest-starter?style=social)](https://github.com/samueladdisu/create-nest-starter)
-[![CI](https://github.com/samueladdisu/create-nest-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/samueladdisu/create-nest-starter/actions)
+[![GitHub stars](https://img.shields.io/github/stars/samueladdisu/nestjs-starter-template?style=social)](https://github.com/samueladdisu/nestjs-starter-template)
+[![CI](https://github.com/samueladdisu/nestjs-starter-template/actions/workflows/ci.yml/badge.svg)](https://github.com/samueladdisu/nestjs-starter-template/actions)
 
 A clean, modular CLI to scaffold a NestJS backend project with optional features like Email, Logger, Auth, and more.
 
@@ -22,18 +22,17 @@ A clean, modular CLI to scaffold a NestJS backend project with optional features
 
 ```bash
 npx create-nest-starter my-app
+```
 
 🧩 Available Modules
-Module	Description
-auth	JWT-based authentication
-email	SMTP email with React templates
-logger	Winston logging integration
-
+Module Description
+auth JWT-based authentication
+email SMTP email with React templates
+logger Winston logging integration
 
 📦 Project Structure
-css
-Copy
-Edit
+
+```css
 my-app/
 ├── src/
 │   ├── main.ts
@@ -45,20 +44,26 @@ my-app/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
+
 🧪 Local Dev
-bash
-Copy
-Edit
+
+```bash
 git clone https://github.com/samueladdisu/create-nest-starter.git
 cd create-nest-starter
 npm install
 npm link
 create-nest-starter my-api
+```
+
 🛠 Requirements
 Node.js ≥ 18
 
 npm or pnpm
 
 📄 License
-MIT © Samuel Addisu
+MIT © [Samuel Addisu][https://github.com/samueladdisu]
+
+```
+
 ```
