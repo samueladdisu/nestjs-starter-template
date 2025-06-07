@@ -6,6 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { config } from './config/config';
 import { CommonModule } from './common/common.module';
 import { LoggerModule } from './common/logger/logger.module';
+// __IMPORT_MODULES__
 
 @Module({
   imports: [
@@ -30,6 +31,7 @@ import { LoggerModule } from './common/logger/logger.module';
     HealthModule,
     CommonModule,
     LoggerModule,
+    // __MODULES__
   ],
 })
 export class AppModule {}

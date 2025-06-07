@@ -11,7 +11,6 @@ A clean, modular CLI to scaffold a NestJS backend project with optional features
 
 - ✅ Modular and production-ready NestJS structure
 - ✅ Pick features like Email, Logger, Auth, and more
-- ✅ Uses React Email for email templating
 - ✅ Nodemailer for SMTP delivery
 - ✅ Built-in validation, filters, config structure
 
@@ -57,9 +56,8 @@ create-nest-starter my-api
 
 🛠 Requirements
 
-Node.js ≥ 18
-
-npm or pnpm
+- Node.js ≥ 18
+- npm or pnpm
 
 📄 License
 MIT © [Samuel Addisu](https://github.com/samueladdisu)
