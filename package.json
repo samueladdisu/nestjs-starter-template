@@ -1,6 +1,6 @@
 {
   "name": "create-nest-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to scaffold a NestJS starter with optional modules",
   "main": "bin/index.js",
   "type": "module",
